@@ -79,7 +79,7 @@ In this step, we will reassign value of the `player` from `X` to `O` when the bo
 - In index.js, create a function called `play`. We will be invoking this function any time one of 9 boxes are clicked. 
 - Using the passed in parameter and `getElementById` select the box that was clicked and save it to a new variable.
 - In the `play` function, using 'getElementById', select the span in the html with the id of `player`. 
-- Every time this function runs we will want to toggle the `X` to a `O` or vise versa to signify the next player's turn.
+- Every time this function runs we will want to toggle the `X` to an `O` or vise versa to signify the next player's turn.
 - At the conclusion of this step you should see that when the board is clicked, it alternates between inserting an X and an O 
 
 <details>
